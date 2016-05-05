@@ -1,0 +1,92 @@
+body{
+		background-color: rgb(127,127,127);
+}
+
+
+.conteiner{	
+			background-color: #424242;
+			border: 1px solid green;
+			width: 60%;
+			margin: 0 auto;
+}
+
+
+/**********************************************************/
+header{
+		background-image: url('../Imagenes/landscape.jpg');
+		background-position: -60px -540px;
+		margin: 10px 15px;
+		text-align: center;
+		height: 90px;
+}
+
+h1.titulo{
+			margin: 0 auto;
+    		line-height: 2em; /*centrar texto vertical (interlineado)*/
+    		color: white;
+   		 	font-family: 'Arial';
+   		 	font-weight: normal;
+    		font-size: 2.5em;
+}
+
+/**********************************************/
+.primero{
+			margin: 50px 15px;
+			height: 200px;
+}
+
+.texto{
+		border: 2px solid white;
+		border-radius: 10px;
+		font-family: 'Comic Sans';
+		font-size: 20px;
+		color: white;
+		width: 65%;
+}
+
+.imagen{
+		width: 30%;
+		height: 145px;
+		margin: 0 10px;
+}
+
+.imagen img{
+			width: 50%;
+			margin: -18px auto;
+		
+}
+
+.texto, .imagen{
+		display: inline-block;
+}
+
+
+p {
+	margin: 20px 15px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+a:hover {
+    color: orange;
+    font-size: 1.2em;
+    transition: 1s;
+}
+
+
+footer{
+		background-color: white;
+		margin: 10px 15px;
+		height: 40px;
+}
+
+footer h3{
+			text-align: center;
+			line-height: 2em;
+			font-family: 'Calibri';
+			font-weight: 500;
+}

@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+}
+
+main {
+		max-width: 960px;
+		margin: 0 auto;
+}
+
+.fila {
+		width: 100%;
+		display: block; /*Si hay otro elemento al lado que lo muestre abajo*/
+}
+
+.fila::after{
+				clear: both;
+}
+
+*[class^="columna"]{			/*Algo que empiece con "columna" */
+					display: block;
+					float: left; /*Cada elemento nuevo que agreguemos 
+									vaya a la derecha (para fomar las columnas)*/
+					overflow: hidden;
+					height: 150px;
+} 
+
+.columna50{
+			width:50%;
+}
+
+.columna25{
+			width:25%;
+}
+
+.columna100{
+			width:100%;
+}
+
+*[class^="columna"] > img{
+							max-width: 100%; /* El ancho máx el 100% */
+							position: center;
+} 
+
+.hero > *[class^="columna"] {
+							height: 300px;
+							position: center;
+}
+
+.hero .columna25 > .fila {
+							max-height: 50%;
+}
+
+.hero .columna50{
+					height: 300px;
+}

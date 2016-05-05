@@ -1,0 +1,95 @@
+body {	
+		background: #BDBDBD;
+}
+
+
+.menu{
+		background: #BDBDBD;
+		border: 5px solid black;
+		border-left-style: dotted;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 2%;
+	
+}
+
+li a:hover {
+    background-color: #111;
+    transition: 2s;
+}
+
+.container{
+			background: #CEF6F5;
+			margin: 0 auto;
+			width: 80%;
+			min-height: 800px;
+	}
+
+.encabezado{
+			text-align: center;
+}	
+
+.titulos{
+		text-align: center;
+		width: 850px;
+}
+
+.logo, .titulos{
+			display: inline-block;
+}
+
+.logo img{
+			width: 70px;
+			display: inline-block;
+}
+
+
+h1 {
+	color: #0174DF;
+	margin-bottom: 0px;
+}
+
+h3{
+	margin-top: 0px;
+	color: #0174DF;
+}
+
+
+.cuerpo{
+		border: 2px solid #2E9AFE;
+		border-left: 0px;
+		border-right: 0px;
+		border-radius: 5%;
+		margin: 3% auto 0;
+		/*
+			margin-left:5px;
+			margin: 10px;
+			margin: 10px 5px;
+			margin: 10px 5px 10px 5px;
+		*/
+		width: 100%;
+}
+
+.texto{
+		font-style: Arial;
+		color: ##6E6E6E;
+		width: 40%;
+		margin: 0 auto 0 3%;
+}
+
+.imagen{
+		width: 40%;
+		text-align: right;
+		margin-top: 2%;
+}
+
+.texto, .imagen{
+				display: inline-block;
+}
+
+.imagen img{
+			width: 350px;
+			text-align: center;
+}
