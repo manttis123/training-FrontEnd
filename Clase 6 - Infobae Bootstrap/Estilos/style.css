@@ -1,0 +1,43 @@
+.container{
+	background-color: #848484;
+}
+
+h1 a{
+	text-decoration: none;
+	color: black;
+	font-size: 0.6em;
+}
+
+h1 a:hover{
+	text-decoration: underline;
+}
+
+.fila2{
+	margin-top: 20px;
+}
+
+.adds img{
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.hero .imagen {
+	padding-right: 0px;
+}
+
+.hero .texto{
+	padding-left: 0px;
+}
+/* Tablet & Desktop */
+
+@media (min-width: 768px){
+	.hero .texto{
+		padding-left: 15px;
+	}
+
+	h1 a{
+		font-size: 1em;
+	}
+}
+
+}

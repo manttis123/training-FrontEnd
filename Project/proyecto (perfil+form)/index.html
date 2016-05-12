@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<title>About Me</title>
+
+		<link rel="stylesheet" href="Estilos/style.css" /> 
+		<!-- Bootstrap -->
+   		 <link href="Estilos/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row hero">
+
+				<div class="col-md-3 col-xs-12">
+					<div class="row fila1">
+						<div class="col-md-12 imagen">
+							<img class="img-responsive" src="Imagenes/perfil.jpg">
+
+							<h4><strong>CARTER</strong></h4> 
+						</div>
+					</div>
+
+					<div class="row fila2">
+						<div class="col-md-12">
+						   	<h5><strong>DESCRIPTION</strong></h5>
+						
+							<textarea placeholder="this a description about me"></textarea>					
+						</div>
+					</div>	
+				</div>
+
+				<div class="col-md-9 col-xs-12 ask">
+					<div class="askback">
+						<h5><strong>Ask me anything</strong></h5>
+
+						<textarea rows="8"> </textarea>
+					</div>
+
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+					    	<label class="control-label col-md-2" for="email">Email:</label>
+
+					   		<div class="col-md-8">
+					     		<input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+					    	</div>
+						</div>
+
+					    <div class="form-group">
+					  		<label class="control-label col-md-2" for="pwd">Password:</label>
+					    	
+					    	<div class="col-md-8"> 
+					      		<input type="password" class="form-control" id="pwd" name="pwd" placeholder="Enter password">
+					    	</div>
+					  	</div>
+
+					  	<div class="form-group">
+					  		<label class="control-label col-md-2" for="age">Age:</label>
+					    	
+					    	<div class="col-md-8"> 
+					      		<input type="number" min="18" class="form-control" id="age" name="age" placeholder="Enter age">
+					    	</div>
+					  	</div>
+
+					  	<div class="form-group">
+						    <label class="control-label col-md-2">Sex:</label>
+						     	
+						    <div class="col-md-8">
+							    <label class="radio-inline">
+							       	<input required type="radio" name="radio">Male
+							    </label>
+
+							    <label class="radio-inline">
+							        	<input type="radio" name="radio">Female
+							    </label>
+						    </div>
+						 </div>
+
+						<div class="form-group">
+						    <label class="control-label col-md-2">Comment:</label>
+					     	
+					   		<div class="col-md-8">
+						        <textarea class="form-control" rows="3" name="commentary"></textarea>
+					   		</div>
+						</div>
+ 
+						<div class="form-group">
+						    <div class="col-sm-offset-2">
+						      <div class="checkbox">
+						        <label>
+						          <input required type="checkbox">I agree with the terms and conditions.
+						        </label>
+						      </div>
+						    </div>
+						</div>
+
+					  	<div class="form-group"> 
+					    	<div class="control-label col-md-offset-5 col-xs-2">
+					      		<button type="submit" class="btn btn-default">Submit</button>
+					    	</div>
+					  	</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>		

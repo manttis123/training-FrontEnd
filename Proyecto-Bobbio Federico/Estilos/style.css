@@ -2,9 +2,26 @@
 	box-sizing: border-box;
 }
 
+
+nav{
+	background-color: rgba(0,0,0,0.5)
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li{
+	margin: 10px;
+}
+
 main {
+		background-position: -300px 0;
 		max-width: 960px;
 		margin: 0 auto;
+		clear: both;
 }
 
 .fila {
@@ -13,6 +30,10 @@ main {
 }
 
 .fila::after{
+				clear: both;
+}
+
+.fila:after{
 				clear: both;
 }
 
@@ -37,13 +58,17 @@ main {
 }
 
 *[class^="columna"] > img{
-							max-width: 100%; /* El ancho máx el 100% */
+							width: 100%; /* El ancho máx el 100% */
 							position: center;
 } 
 
 .hero > *[class^="columna"] {
-							height: 300px;
+							height: 269px;
 							position: center;
+}
+
+.hero .columna50 > .fila{
+	max-height: 269px;
 }
 
 .hero .columna25 > .fila {
@@ -51,5 +76,63 @@ main {
 }
 
 .hero .columna50{
-					height: 300px;
+					height: 269px;
+}
+
+
+/**** RESPONSIVE *****/
+/**** Celulares ***
+@media (max-width: 767px){  
+	body{
+		background-color: red;
+	}
+
+	.columna25{
+		width: 100%;
+	}
+}
+*/
+
+/*Por defecto el más chico es el celular*/
+
+/* Tablet y Desktop) */
+@media (min-width: 768px){
+	.background{
+		background-image: url("../Imagenes/menu/Fondo.jpg");
+		position: fixed;
+		z-index: 0;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	main, header{
+		position: relative;
+		z-index: 1;
+	}
+
+	nav{
+		background-color: transparent;
+	}
+
+	nav li{
+		float: left;
+	}
+}
+
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1000px){
+	
+	nav{
+		
+	}
+}
+
+/* Desktop */
+@media (min-width: 1001px){
+	nav{
+		
+	}
 }

@@ -1,0 +1,55 @@
+* {
+  border: 1px solid lightgreen;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  font-family: 'Verdana';
+}
+
+.logo {
+  width: 30%;
+  text-align: center;
+}
+
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+
+.header {
+  width: 60%;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.logo, .header {
+  display: inline-block;
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.photo {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+  .photo img {
+    width: 180px;
+    height: 150px;
+  }
+
+.text {
+  display: inline-block;
+  width: 60%;
+  padding: 3px;
+}
+
+  .text p {
+    text-align: left;
+  }

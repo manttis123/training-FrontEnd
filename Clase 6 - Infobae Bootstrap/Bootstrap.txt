@@ -1,0 +1,16 @@
+http://getbootstrap.com/getting-started/#download
+
+col-xs-   < 768
+col-sm-  >= 768
+col-md-	 >= 992
+col-lg   >= 1200
+
+
+class="col-md-4 col-sm-6 col-xs-12" // Defino diferentes tamaños que quiero que tenga
+
+
+class="img-responsive"
+
+
+--------------
+container-fluid = ocupa el 100% del ancho de la pantaia

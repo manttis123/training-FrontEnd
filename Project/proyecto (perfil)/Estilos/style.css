@@ -1,0 +1,50 @@
+body{
+	background-image: url("../Imagenes/fondo.jpg");
+	background-size: contain;
+}
+
+.container{
+	background-color: rgba(235, 235, 224, 0.7);
+}
+
+.row .borde{
+	border: 1px solid #A4A4A4;
+	border-bottom: 0px;
+	border-top: 0px;
+	/*padding: 50px 30px 10px 30px;*/
+}
+
+.fila1{
+	padding: 50px 30px 20px 30px;
+	border-bottom: 1px solid #A4A4A4;
+}
+
+.fila2{
+	padding: 0px 30px 10px 30px;
+}
+
+.img-responsive {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.ask {
+	padding-left: 50px;
+}
+
+h4{
+	font-size: 2em;
+}
+
+.fila2 h5{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 0.8em;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    border-radius: 3px;
+    width: 100%;
+}

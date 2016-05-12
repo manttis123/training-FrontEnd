@@ -1,0 +1,86 @@
+.conteiner{
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 a{
+	text-decoration: none;
+	color: black;
+}
+
+h1 a:hover{
+	text-decoration: underline;
+}
+
+.hero .columna90 p{
+	line-height: 1.4em;
+	margin:0 auto;
+}
+
+.fila .columna86 p{
+
+}
+
+.fila{
+	display: block;
+	width: 100%;
+	font-family: "Arial";
+
+}
+
+/********** ARREGLO DE FLOAT ***********/
+.fila:after, fila:before{
+	display: table;
+	content: " ";
+}
+
+.fila::after{
+	clear: both;
+}
+
+:after, :before{
+	box-sizing: border-box;
+}
+/********** ARREGLO DE FLOAT ***********/
+
+
+*[class*="columna"]{ /*Contiene la palabra "columna" */
+	float:left;
+}
+
+.columna10{
+	width: 10%;
+}
+
+.columna33{
+	width: 33%;
+}
+
+.columna66{
+	width: 66%;
+}
+
+.columna90{
+	width: 90%;
+}
+
+.columna100{
+	width: 100%;
+}
+
+*[class*="columna"] > img{
+	max-width: 100%;
+}
+
+
+/* Tablet & Desktop */
+
+@media (max-width: 768px){
+	.fila{
+		font-family: "Times New Roman";
+	}
+
+	.columna100{
+		background-color: yellow;
+	}
+}
