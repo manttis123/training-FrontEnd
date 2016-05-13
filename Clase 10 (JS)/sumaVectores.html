@@ -1,0 +1,70 @@
+<!--
+[11:23:18 a.m.] Gaston Moreno: Problema 1
+
+ Dado un vector con numeros enteros:
+  Escriba tres funciones que realicen la suma de todos los elementos del vector utilizando: X
+   1) for
+   2) while
+   3) recursion
+
+
+ Problema 2
+
+ Dado dos vectores: X
+
+  Escriba una funcion que retorne un vector alternando elementos de ambos vectores. Por ejemplo:
+   Dado vectores [1,2,3] y [a,b,c] que retorne [1,a,2,b,3,c]
+[11:23:40 a.m.] Gaston Moreno: los q les pediria es q a los resultados los impriman con console.log....
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Suma Vectores</title>
+
+
+</head>
+<body>
+
+	<script type="text/javascript">
+		/* FOR */
+		var vec = [1,2,3,4,5,6,7,8,9,10];
+		var suma = 0;
+		var i = 0;
+
+		function sumaFor (){
+			
+
+			for (i = 0; i < vec.length; i++){
+				suma += vec[i];
+			}
+			
+			console.log(suma);
+
+		};
+		
+		/* WHILE */ 
+		function sumaWhile (){
+			while (i < vec.length){
+				suma += vec[i];
+				i++;
+			}
+			console.log(suma);
+		};
+
+		/* RECURSIVA */
+		function sumaRecu (){
+			if (!i){
+				i = 0;
+			}
+
+			if (i >= vec.length){
+				return 0;
+			}
+
+			return (vec[i] + sumaRecu(vec, i+1));
+		};
+
+	</script>
+</body>
+</html>
