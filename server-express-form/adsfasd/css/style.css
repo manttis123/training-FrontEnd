@@ -1,0 +1,85 @@
+body{
+	background-image: url('../images/fondo-azul.jpg');
+	background-position-x: -50px;
+	background-position-y: -800px;
+}
+
+.header {
+    height: 100px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.header > .wrapper {
+	width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header .wrapper .logo{
+	margin-top: 10px;
+	display: inline-block;
+    width: 15%;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.wrapper form.form-inline {
+	margin-top: 35px;
+	float: right;
+    /*margin-top: 31.5px;*/
+}
+
+.wrapper form input[type="button"]{
+	width: 100px;
+	border-radius: 2px;
+	opacity: 0.8;
+    border-color: #a7a7a7;
+}
+
+/*FORMULARIO*/
+
+h1{
+	text-align: center;
+	line-height: 2em;
+}
+
+.container .row .columna{
+	background-color: #EEE;
+	width: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0 20px 20px 25px;
+}
+
+.row .columna .form-group > label{
+	margin: 0 auto;
+	padding: 0;
+	font-weight: 100;
+}
+
+.row .columna input[type="submit"]{
+	width: 100%;
+}
+
+.row .columna a{
+	margin-left: 117px;
+	margin-top: 20px;
+}
+
+
+
+/*FOOTER*/
+
+.footer{
+	height: 200px;
+	background-color: #333;
+    margin: 0 auto;
+}
+
+/*TEMPLATES*/
+#templates{
+	display: none;
+}

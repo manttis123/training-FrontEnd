@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Proyecto 3</title>
+		<link rel="stylesheet" href="css\bootstrap.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<style type="text/css">
+			#crea .help-block.required{
+				display: block;
+			}
+			#crea .help-block.invalid{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8 col-xs-12">
+					<div class="form-horizontal">
+						<div class="form-group" id="base">
+							<div class="row" id="login">
+								<div class="col-sm-4" id="crea">
+									<input class="form-control" type="email" placeholder="User" id="user">
+									<span class="help-block required">Email Required</span>
+									<span class="help-block invalid">Email invalid</span>
+								</div>
+								<div class="col-sm-4" id="list">
+									<input class="form-control" type="password" placeholder="Password" id="pass">
+								</div>
+								<div class="col-sm-4" id="name">
+									<button class="form-control" id="logIn" type="button" class="btn">Log In</button>
+								</div>
+							</div>
+						</div>
+					</div>	
+				<div id="templatePlace"></div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="js/logIn.js"></script>
+	</body>
+</html>

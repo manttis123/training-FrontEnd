@@ -1,0 +1,10 @@
+﻿{
+ "nom" : "Pedro López",
+ "about" : "soy un groso",
+ "exp" : [{
+  "lugar" : "GL",
+  "pos" : "Dev",
+  "time" : "2013-"
+  }],
+  "con" : ["tec1", "tec2"]
+}

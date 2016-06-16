@@ -1,0 +1,108 @@
+.header{
+	height: 80px;
+	padding-bottom:20px;
+	background: #232323;
+}
+
+/*Columnas Principales*/
+.col-info{
+	background-color: rgb(61, 61, 59);
+	color: rgb(189, 195, 199);
+	font-size: 14px;
+
+}
+
+.col-icons{
+	height: 100%;
+	background-color: #E6E6E6;
+	box-shadow: -3px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.col-user{
+	height: 500px;
+	background-color: rgb(244, 244, 244);
+}
+
+/*Columna Info*/
+.row > .imagen{
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.imagen > img{
+	max-width: 100%;
+	height: auto;
+}
+
+.box1 h3{
+	max-width: 100%;
+	font-family: Arial, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.box1 p{
+	font-size: 13px;
+    line-height: 28px;
+    color: #959595;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.box2 ul li{
+	text-align: left;
+}
+
+.row > .box1 , .row > .box2{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+/*Columna Iconos*/
+.row > .col-icons{
+	margin: 0 auto;
+	padding: 0px;
+}
+
+ul{
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+ul li{
+	margin: 20px auto;
+	opacity: 0.5;
+}
+
+.col-icons ul li:hover{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+/*poner nombre del icono abajo del icono*/
+a .text-icon{
+	color: black;
+	display: block;
+}
+
+/*quitar subrayado*/
+a.dropdown-toggle:link{
+	text-decoration: none;
+}
+
+.col-icons .glyphicon.glyphicon {
+    font-size: 30px;
+    color: black;
+}
+
+/*Columna User*/
+.row > .col-user{
+	border: 1px solid;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px; 
+}
+
+

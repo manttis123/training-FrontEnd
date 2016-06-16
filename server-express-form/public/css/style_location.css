@@ -1,0 +1,12 @@
+.col-user #map{
+	width: 100%;
+	height: 600px;
+}
+
+.col-user button#editcoordinate{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+

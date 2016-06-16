@@ -1,0 +1,17 @@
+.col-user .education{
+	overflow: auto;
+}
+
+.col-user .education button{
+ float: right;
+ margin: 10px auto;
+}
+
+.col-user .education #newEducationTitle{
+	margin-bottom: 5px;
+}
+
+.col-user .education textarea{
+  resize: none;
+}
+

@@ -1,0 +1,170 @@
+/*Validaciones*/
+#usuar{
+	display: none;
+}
+
+#inval{
+	display: none;
+}
+
+#passin{
+	display: none;
+}
+
+body button{
+	font-weight: bold;
+}
+
+/*Header (adminButton)*/
+.header{
+	height: 95px;
+	padding: 20px 0;
+	background: #232323;
+	color: #fff;
+}
+
+.header span{
+	color: white;
+	margin: 0;
+	margin-top: 5px;
+}
+
+.header p{
+	margin: 10px auto;
+	font-weight: bold;
+}
+
+
+/*Columnas Principales*/
+.col-info{
+	height: 700px;
+	background-color: rgb(61, 61, 59);
+	color: rgb(189, 195, 199);
+	font-size: 14px;
+}
+
+.col-icons{
+	height: 700px;
+	background-color: #E6E6E6;
+	box-shadow: -5px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.col-user{
+	height: 700px;
+	background-color: rgb(244, 244, 244);
+}
+
+
+/*Columna Info*/
+.row > .imagen{
+	border-bottom: 1px solid;
+	padding: 0;
+}
+
+.imagen > img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.col-info .box1 , .col-info .box2 ul li{
+	font-family:'Oswald', sans-serif;
+    line-height: 28px;
+    color: #959595;
+    text-align: justify; 
+}
+
+.col-info .box1 h3{
+	max-width: 100%;
+	font-family: Arial, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.col-info .row > .box1 , .col-info .row > .box2{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.col-info .edit{
+	margin: 20px auto;
+	padding: 0 60px;
+}
+
+/*Columna Iconos*/
+ul{
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+ul li{
+	margin: 20px auto;
+	opacity: 0.5;
+	transition: 2.5s;
+}
+
+.col-icons ul li:hover{
+	opacity: 1;
+	transition: 2s;
+}
+
+/*poner nombre del icono abajo del icono*/
+a .text-icon{
+	color: black;
+	display: block;
+}
+
+/*quitar subrayado*/
+a.dropdown-toggle:link{
+	text-decoration: none;
+}
+
+.col-icons .glyphicon.glyphicon {
+    font-size: 30px;
+    color: black;
+}
+
+/*Columna User*/
+.col-user .wrap{
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px; 
+}
+
+/*FORMULARIO*/
+.col-user h4{
+	text-align: center;
+}
+
+/*LISTADO TABLA*/
+.col-user .overflowTable{
+	height: 650px;
+	overflow: auto;
+}
+
+.col-user #divtabla > .overflowTable button{
+	margin: 30px auto;
+}
+
+.col-user table {
+    border-collapse: collapse;
+}
+
+.col-user table thead th{
+	text-align: center;
+	border-bottom: 1px solid;
+}
+
+.col-user th,.col-user td {
+	padding: 8px;
+	white-space: nowrap;
+}
+
+.col-user tr:nth-child(even){background-color: #fff}
+#templates{
+	display: none;
+}
+
+.col-user table button#back{
+	margin-top: 20px;
+}

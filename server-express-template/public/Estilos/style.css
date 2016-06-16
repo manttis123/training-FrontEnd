@@ -1,0 +1,34 @@
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.botones{
+	width: 1140px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.botones .parteMostrar #refresh{
+	display: block;
+}
+
+button, input{
+	width: 200px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.row{
+	font-weight: bold;
+	line-height: 2.5em;
+}
+
+.container, .botones{
+	font-size: 1.2em;
+}
+
+#templates{
+	display: none;
+}

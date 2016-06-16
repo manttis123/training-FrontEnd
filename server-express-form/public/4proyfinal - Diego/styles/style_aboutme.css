@@ -1,0 +1,24 @@
+.col-user p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+    line-height: 25px;
+    color: #616161;
+    font-size: 14px;
+    font-family:'Oswald', sans-serif;
+}
+
+
+h1
+{       
+    line-height: 1;
+    font-family: Fjalla One, Arial, sans-serif;
+    font-size: 60px;
+    color: #414952;
+    font-weight: normal;
+}
+
+

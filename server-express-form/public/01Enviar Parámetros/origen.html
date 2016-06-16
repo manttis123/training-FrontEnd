@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <meta charset="utf-8"> <!-- Para que tome los caracteres especiales -->
+
+		<title>origen.html</title>
+	</head>
+		
+	<body>
+		<div class="header">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2 col-xs-12">
+					<div class="form-horizontal">
+						<div class="form-group" id="base">
+							<div class="row" id="login">
+								<div class="col-sm-4" id="crea">
+									<input class="form-control" type="email" placeholder="User" id="user">
+								</div>
+								<div class="col-sm-4" id="list">
+									<input class="form-control" type="password" placeholder="Password" id="pass">
+								</div>
+								<div class="col-sm-4" id="name">
+									<button class="form-control" id="logIn" type="button" class="btn">Log In</button>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			
+		logIn.onclick = function (e){  /*Le asigno un evento cuando hagan 	click */
+		e.preventDefault(); /*Para sacarle el default al boton */
+		var num = document.getElementById('user').value;
+		console.log(num);
+		window.location="destino.html?num="+num;
+		}
+		
+			
+		</script>
+	</body>
+
+</html>

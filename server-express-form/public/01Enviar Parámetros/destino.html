@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <meta charset="utf-8"> <!-- Para que tome los caracteres especiales -->
+		<title>destino.html</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		var paramstr = window.location.search.substr(1);
+		var paramarr = paramstr.split ("&");
+		var params = {};
+
+		for ( var i = 0; i < paramarr.length; i++) {
+		var tmparr = paramarr[i].split("=");
+		params[tmparr[0]] = tmparr[1];
+		}
+		if (params['num']) {
+		console.log('El valor del parámetro variable es: '+params['num']);
+		} else {
+		console.log('No se envió el parámetro variable');
+		}
+		</script>
+	</body>
+</html>

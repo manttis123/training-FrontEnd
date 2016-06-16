@@ -1,0 +1,33 @@
+[contenteditable]{  
+    border: 1px solid black;
+    background-color: white;  
+}
+
+[contenteditable]:hover{  
+    background: #fff7c3;  
+    border: 1px dotted #f0df6c;  
+} 
+
+.col-user p{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    line-height: 25px;
+    color: #616161;
+    font-size: 14px;
+    font-family:'Oswald', sans-serif;
+}
+
+.col-user h1{       
+    line-height: 1;
+    font-family: Fjalla One, Arial, sans-serif;
+    font-size: 60px;
+    color: #414952;
+    font-weight: normal;
+}
+
+.col-user .buttonBack button{
+    margin: 20px 0;
+}

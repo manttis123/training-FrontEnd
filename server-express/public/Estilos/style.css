@@ -1,0 +1,12 @@
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+input{
+	margin: 0 auto;
+	display:block;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	font-size: 2em;
+}

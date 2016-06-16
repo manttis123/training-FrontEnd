@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Form - Personas</title>
+ <!-- Latest compiled and minified Bootstrap CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ <link rel="stylesheet" href="css/style.css" />
+</head>
+  <body>
+  	<div class="header">
+        <div class="wrapper">
+            <div class="logo">
+                <img src="../images/negra.jpg" alt="#" class="img-circle">
+            </div>
+
+            <form class="form-inline" class="login-form">
+                <input type="text" class="form-control" id="login-user"placeholder="Usuario" />
+
+                <input type="text" class="form-control" id="login-password" placeholder="Contraseña" />
+
+                <input type="submit" id="login-button" value="Iniciar sesión" />
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-4 col-md-3 columna">
+                <h1> Únetenos </h1>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="reg-name">Nombre:</label>
+                        <input type="text" name="firstName" class="form-control" id="reg-name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reg-lastName">Apellidos:</label>
+                        <input type="text" name="lastName" class="form-control" id="reg-lastName" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reg-email">Correo electrónico:</label>
+                        <input type="email" name="email" class="form-control" id="reg-email" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reg-password">Password:</label>
+                        <input type="password" name="password" class="form-control" id="reg-password" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reg-birthday">Fecha de Nacimiento:</label>
+                        <input type="date" name="birthday" class="form-control user" id="reg-birthday"/>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Género:</label>
+
+                          <div class="row">
+                            <div class="col-xs-12 radios">
+                               <label class="radio-inline"><input type="radio" name="gender" value="F">Femenino</label>
+                               <label class="radio-inline"><input type="radio" name="gender" value="M">Masculino</label>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reg-address">Dirección:</label>
+                        <input type="text" name="address" class="form-control user" id="reg-address"/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reg-photo">Imágen:</label>
+                        <input type="text" name="photo" class="form-control user" id="reg-photo"/>
+                    </div>
+
+                    <input type="submit" class="btn-info" id="register-button" value="Registrarse" />
+                    <a class="btn btn-default" href="usuarios.html" role="button">Listar Usuarios</a>
+                    
+                  
+                </form>    
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        
+    </div>
+    
+    <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+    <script type="text/javascript" src="js/index.js" ></script>
+    <script type="text/javascript" src="js/login.js" ></script>
+    <script type="text/javascript" src="js/register.js" ></script> 
+  </body>
+</html>
+

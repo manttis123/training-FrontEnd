@@ -1,0 +1,18 @@
+npm init
+npm install restify
+app.js
+
+static: Servidor estatico para html
+express: Servidor dinámico, para html
+restify: Servidor de apis
+
+usamos postman para ir probando la api
+
+
+http://www.restapitutorial.com/lessons/httpmethods.html
+
+https://www.dexa-dev.com/node-js-creando-una-api-rest-con-node-js-en-5-minutos/
+
+rest api
+ajax
+angular

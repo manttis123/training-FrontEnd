@@ -1,36 +1,38 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-
 <head>
-	<title>Ejercicio 3</title>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Para que ande el media -->
 
-	<link rel="stylesheet" href="Estilos/style.css" />
+	<title>Información</title>
+
+
 </head>
 
 <body>
-	<div class="conteiner">
-		<header>
-			<h1 class="titulo">BIENVENIDOS</h1>
-		</header>
 
-		<div class="primero">
-			<div class="texto">
-				<p>This a random paragraph that contains more random 
-					words as an examblee, just an example. This text must be surrounded by a white, rounded border and un the left column!!! Ad more random text</p>
-					<p> Click <a href="index2.html"> aqui </a> para ir a nuestra mejor pagina </p>
-			</div>
-			<div class="imagen">
-				<img src="Imagenes/profile.png" alt="Profile"/>
-			</div>
-
-		</div>
-
-		<footer>
-			<h3> FOOTER CONTENT </h3>
-		</footer>
-
-	</div>
+<h1 id="nom"></h1>
+ <h2 id="about"></h2>
+ <h3 id="exp"></h3>
+ <h4 id="con"></h4>
+	
+ <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+ <script type="text/javascript">
+ $.getJSON('cv.json', function(cvTest){
+   $.each(cvTest, function(key, value){
+   if (typeof value == 'string'){
+    $('#' + key).html(value);
+   } else {
+    var ul = $('<ul></ul>');
+    $.each(value, function(k,v){
+     var li = $('<li></li>');
+     li.html(v);
+     ul.append(li);
+    });
+    $('#' + key).append(ul);
+   }
+   });
+  });
+  </script>
 
 </body>
-
 </html>

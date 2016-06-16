@@ -1,0 +1,16 @@
+.botones{
+	width: 1140px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.botones .parteAgregar #refresh{
+	display: block;
+}
+
+button, input{
+	width: 150px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
